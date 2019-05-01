@@ -145,8 +145,8 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #646464;
-		font-weight: 300;
+		color: maroon;
+		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 0.5em 0;
 	}
@@ -3141,8 +3141,8 @@
 
 	#banner {
 		background-attachment: scroll,							fixed;
-		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		background-color: maroon;
+/*		background-image: url("images/overlay.png"), url("../../images/banner1.jpg");*/
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
@@ -3235,9 +3235,10 @@
 /* Footer */
 
 	#footer {
-		background: #f0f0f0;
+		background: maroon;
 		padding: 4em 0 6em 0;
 		text-align: center;
+        color: white !important;
 	}
 
 		#footer .icons a {
@@ -3246,6 +3247,7 @@
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
 			opacity: 0.35;
+            color: wheat !important;
 		}
 
 			#footer .icons a:hover {
@@ -3271,6 +3273,7 @@
 				list-style: none;
 				margin-left: 1em;
 				padding-left: 1em;
+                color: wheat!important;
 			}
 
 				#footer .copyright li:first-child {
