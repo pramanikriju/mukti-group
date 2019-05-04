@@ -2910,7 +2910,7 @@
 	}
 
 	#header {
-		background: maroon;
+		background: maroon !important;
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
