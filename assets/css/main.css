@@ -1,5 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap');
 
 /*
 	Alpha by HTML5 UP
@@ -146,7 +147,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: maroon;
-		font-weight: 400;
+		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5em 0;
 	}
