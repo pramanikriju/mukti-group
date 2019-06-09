@@ -2455,7 +2455,11 @@
 
 			.image.fit img {
 				display: block;
-				width: 100%;
+/*				width: 100%;*/
+                text-align: center;
+                width: 40%;
+                height: 50%;
+                margin-left: 30%;
 			}
 
 /* List */
