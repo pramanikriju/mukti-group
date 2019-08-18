@@ -10,6 +10,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body class="landing is-preload">
@@ -39,7 +41,7 @@
 -->
                     <li><a href="media.html">Media</a></li>
                     <li><a href="csr.html">CSR</a></li>
-                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="index.html#careers">Careers</a></li>
                 </ul>
             </nav>
         </header>
@@ -61,7 +63,9 @@
         </div>
 
         <!-- Main -->
-        <section id="main" class="container">
+        <section id="main" class="container" >
+              <div data-aos="fade-up">
+
 
             <section class="box special" style="z-index: 99999999999;" id="aboutbutton">
                 <header class="major">
@@ -73,6 +77,7 @@
 
                 <!--                <span class="image featured"><img src="images/banner.JPG" alt="" /></span>-->
             </section>
+                  </div>
             <div class="row" style="text-align: center;">
                 <div class="" style="text-align: center;background-color: white;margin-bottom: 30px; width: 100%;padding-right: 2em;">
 
@@ -89,7 +94,7 @@
 
 
 
-                <div class="col-4 col-12-narrower">
+                <div class="col-4 col-12-narrower" data-aos="fade-left">
 
 
                     <section class="box special">
@@ -102,7 +107,7 @@
                     </section>
 
                 </div>
-                <div class="col-4 col-12-narrower">
+                <div class="col-4 col-12-narrower" data-aos="fade-up">
 
                     <section class="box special">
                         <h3>HOSPITALITY</h3>
@@ -113,8 +118,8 @@
                         </ul>
                     </section>
 
-                </div>
-                <div class="col-4 col-12-narrower">
+                </div> 
+                <div class="col-4 col-12-narrower" data-aos="fade-right">
 
 
                     <section class="box special">
@@ -128,11 +133,11 @@
 
                 </div>
 
-                <div class="col-12 col-12-mobilep" style="margin:1em;">
+                <div class="col-12 col-12-mobilep" style="margin:1em;" id="careers">
                     <div style="background-color: white;margin-top: 30px;">
                         <h2><strong style="color: maroon !important;">CAREERS</strong></h2>
                     </div>
-                    <div style="text-align: center;background: white; margin-bottom: 10px;font-size: 1.25em;padding: 3em;margin-top: 30px;">
+                    <div data-aos="fade-down" style="text-align: center;background: white; margin-bottom: 10px;font-size: 1.25em;padding: 3em;margin-top: 30px;">
                         <p>
                         If you would like to join a dynamic and fast growing organisation and have a fire
                         burning inside you, do send your profile to <strong>hrd@muktigroup.in</strong>
@@ -220,9 +225,13 @@
             "images/slides/5.jpg"
         ], {
         duration: 3000,
-        transition: 'push_left|push_right|cover_up|cover_down|fade',
+        transition: 'push_left|push_right|cover_up|cover_down|fade|fade_in_out|cover_left',
         transitionDuration: 250
         });
     </script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body></html>
