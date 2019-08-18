@@ -128,11 +128,11 @@
 
                 </div>
 
-                <div class="col-12 col-12-mobilep" style="">
-                    <div style="background-color: white">
+                <div class="col-12 col-12-mobilep" style="margin:1em;">
+                    <div style="background-color: white;margin-top: 30px;">
                         <h2><strong style="color: maroon !important;">CAREERS</strong></h2>
                     </div>
-                    <div style="text-align: center;background: white; margin-bottom: 20px;font-size: 1.25em">
+                    <div style="text-align: center;background: white; margin-bottom: 10px;font-size: 1.25em;padding: 3em;margin-top: 30px;">
                         <p>
                         If you would like to join a dynamic and fast growing organisation and have a fire
                         burning inside you, do send your profile to <strong>hrd@muktigroup.in</strong>
@@ -173,18 +173,8 @@
                     <i class="fa fa-phone"></i> &nbsp; 033 4060 7379 / 80
                     <br>
                     <br>
-                    <i class="fa fa-envelope"></i>&nbsp; &nbsp;<a href="mailto:contact@muktigroup.in"> contact@muktigroup.in</a>
-                    <ul class="copyright">
-
-                        <li> </li>
-                        <li></li>
-                        <br>
-                        <br>
-                        <p style="margin-top: 10%;">&copy; <script>
-                                document.write(new Date().getFullYear())
-                            </script><a href="http://duotoneinc.com" target="_blank">Duotone Inc</a><a href="https://riju.co" target="_blank">.</a></p>
-                        <li style="display: none">Design: <a href="http://riju.co">Riju Pramanik</a></li>
-                    </ul>
+                    <i class="fa fa-envelope"></i>&nbsp; &nbsp;<a href="mailto:contact@muktigroup.in" style="color: white;"> contact@muktigroup.in</a>
+                   
 
                 </div>
                 <div class="col-6 col-12-narrower">
@@ -196,8 +186,15 @@
                                 background: none !important
                             }
                         </style>
-                    </div><br />
+                    </div>
 
+                </div>
+                <div class="col-12" style="text-align: center">
+                    
+                         <p style="margin-top: 3em; color: white;">&copy; <script>
+                                document.write(new Date().getFullYear())
+                            </script><a href="http://duotoneinc.com" target="_blank" style="color: white;"> Duotone Inc</a><a href="https://riju.co" target="_blank" style="color: white;">.</a></p>
+                 
                 </div>
             </div>
 
@@ -213,7 +210,7 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+    <script src="assets/js/jquery.backstretch.js"></script>
     <script>
         $("#banner").backstretch([
             "images/slides/1.jpg",
@@ -222,8 +219,9 @@
             "images/slides/4.jpg",
             "images/slides/5.jpg"
         ], {
-            duration: 3000,
-            fade: 750
+        duration: 3000,
+        transition: 'push_left|push_right|cover_up|cover_down|fade',
+        transitionDuration: 250
         });
     </script>
 
